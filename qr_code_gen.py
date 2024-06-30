@@ -1,5 +1,7 @@
 import qrcode
 
+#I created a class named MyQR to simplify the process of creating qr_code_gen.
+
 class MyQR:
     def __init__(self, size: int, padding: int ):
         self.qr = qrcode.QRCode(box_size = size, border = padding,)
@@ -20,6 +22,7 @@ class MyQR:
         except Exception as e:
             print(f' Error: {e}' )
 
+#Main function of qr_code_gen
 
 def main():
     myqr = MyQR(size=6, padding=2)
