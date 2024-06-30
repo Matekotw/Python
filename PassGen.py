@@ -1,20 +1,22 @@
 import string
 import secrets
 
+# Checking if the password contains uppercase characters
 def contains_uppercase(password: str) -> bool:
     for char in password:
         if char.isupper():
             return True
 
     return False
-
+    
+# Checking if the password contains symbols
 def contains_symbol(password: str) -> bool:
     for char in password:
         if char in string.punctuation:
             return True
 
     return False
-
+# Password generator
 def generate_password(length: int, symbol: bool, uppecase: bool) -> str:
     combination : str =  string.ascii_lowercase + string.punctuation
 
@@ -32,6 +34,7 @@ def generate_password(length: int, symbol: bool, uppecase: bool) -> str:
     return new_password
 
 if __name__ == '__main__':
+    #you can manipulate the password
     for i in range(1,10):
         new_password = generate_password(10, symbol=True, uppecase=True)
         specs: str =f'U:{contains_uppercase(new_password)}, S:{contains_symbol(new_password)}'
