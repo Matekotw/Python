@@ -7,9 +7,9 @@ class MyQR:
         self.qr = qrcode.QRCode(box_size = size, border = padding,)
 
 
-
+# A function that asks for a link
     def create_qr(self, file_name: str,fg: str, bg: str):
-        user_input: str = input('Enter your text: ')
+        user_input: str = input('Add your link here: ')
 
 
         try:
