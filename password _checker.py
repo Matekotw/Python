@@ -1,3 +1,4 @@
+#This function checks the password and prompts the user to type a password of type "str"
 def check_password(password: str) :
     with open('password.txt', 'r') as file:
         common_password: list [str] = file.read().splitlines()
@@ -9,6 +10,7 @@ def check_password(password: str) :
 
     print(f'{password}: good (unige)')
 
+#Main function for testing.
 def main():
     user_password = input('Enter your password: ')
     check_password(user_password)
