@@ -9,6 +9,7 @@ To run these programs, you will need a Python editor and the necessary modules.
 For the password generator (PassGen.py), you will need the "secrets" and "string" modules.
 For the QR code generator (qr_code_gen.py), you will need the "qrcode" module.
 Additionally, for the password checker (password_checker.py), you need to include a "password.txt" file in the same folder.
+
 ------------------------------------------
 To run the programs, follow these steps:                           
 1. Open a new project in a Python editor.
