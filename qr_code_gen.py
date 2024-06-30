@@ -26,7 +26,7 @@ class MyQR:
 
 def main():
     myqr = MyQR(size=6, padding=2)
-    myqr.create_qr('sample.png',
+    myqr.create_qr('qr_image.png',
                  fg = 'black',
                  bg = 'white')
 
