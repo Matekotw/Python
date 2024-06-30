@@ -1,15 +1,14 @@
 
-
-Here are three simple projects using Python that demonstrate my skills and interest in coding and cybersecurity. The projects are as follows:
+Here are three Python projects that showcase my coding and cybersecurity skills and interests:
 
 1) The first project is a password generator.
 2) The second project is a QR code generator.
-3) The third project is a password checker, which uses a password.txt file.
+3) The third project is a password checker that utilizes a password.txt file.
 
 To run these projects, you will need a Python editor and the necessary modules.
 
-For the password generator (PassGen.py), you will need the "secrets" and "string" modules.
-For the QR code generator (qr_code_gen.py), you will need the "qrcode" module.
+For the password generator -> (PassGen.py), you will need the "secrets" and "string" modules.
+For the QR code generator -> (qr_code_gen.py), you will need the "qrcode" module. Additionally, for the password checker -> (password_checker.py), you need to include a password.txt file in the same folder.
 
 To run the programs, follow these steps:
 1) Open a new project in a Python editor.
